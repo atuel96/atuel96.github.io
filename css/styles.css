@@ -1,0 +1,141 @@
+.top-container {
+    background-color: #d3e0ea;
+    padding-top: 120px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+table {
+    margin: auto;
+}
+
+h1 {
+    width: 45%;
+    margin: 0 auto 0 auto;  /* center when changing width*/
+    padding: 10px 0;
+    color: #30475e;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;    /*  1em = 100% = 16px -> 60px = 6000/16 = 375%*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #30475e;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #30475e;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.subtext {
+    color: #30475e;
+}
+
+.atom-icon {
+    width: 50px;
+}
+
+.middle-container {
+    background-color: #f6f5f5;
+}
+
+.bottom-container {
+    background-color: #30475e;
+    padding: 20px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    top:50px;
+}
+
+.big-icon-l {
+    border-radius: 50%;
+    /* padding: 50px; */
+    margin-right: 30px;
+    width: 200px;
+    float: left;
+}
+
+.big-icon-r {
+    border-radius: 50%;
+    /* padding: 50px; */
+    margin-left: 30px;
+    width: 200px;
+    float: right;
+}
+
+.skill-row {
+    width: 50%;
+    padding: 50px 100px 50px 100px;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.intro, .contact-message {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.footer-link {
+    padding: 20px 10px;
+    color: #f6f5f5;
+}
+
+.contact-me {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin: 30px;
+}
+
+.btn:hover {
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+hr {
+    width: 5%;
+    margin: 50px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #30475e;
+}
