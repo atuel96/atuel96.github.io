@@ -3,6 +3,13 @@
     padding-top: 120px;
 }
 
+@media (max-width: 600px){
+
+    .mountain-img{
+        width: 100%;
+    }
+}
+
 body {
     margin: 0;
     text-align: center;
